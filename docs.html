@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Documentation — Excel POS Template</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container nav">
+      <a class="brand" href="/">
+        <span class="dot"></span>
+        <span>Excel POS Template</span>
+      </a>
+      <div class="navlinks">
+        <a href="/docs">Docs</a>
+        <a href="/#pricing">Pricing</a>
+        <a class="btn" href="/download">Download</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="container" style="padding: 26px 0 46px">
+    <div class="card">
+      <h1>Documentation</h1>
+      <p class="sub">This page is written for non-technical buyers. You can edit it to match your exact workflow.</p>
+
+      <div class="hr"></div>
+
+      <h2 id="requirements">1) Requirements</h2>
+      <ul>
+        <li>Microsoft Excel (recommended: Microsoft 365 desktop app on Windows)</li>
+        <li>A4 printer or 80mm thermal printer (optional)</li>
+        <li>Macros enabled (for Print & Save automation)</li>
+      </ul>
+
+      <h2 id="first-run">2) First-time setup (Macros)</h2>
+      <div class="note warn">
+        Excel may block macros on downloaded files. This is normal security behavior.
+      </div>
+      <ol>
+        <li>Save the .xlsm file to your computer (e.g., Documents).</li>
+        <li>Right-click the file → <b>Properties</b> → tick <b>Unblock</b> → Apply.</li>
+        <li>Open the file → click <b>Enable Editing</b> and <b>Enable Content</b>.</li>
+      </ol>
+
+      <h2 id="how-to-use">3) How to use (Daily)</h2>
+      <ol>
+        <li>Enter customer name (optional).</li>
+        <li>Add up to 5 lines: Service/Item, Quantity, Unit Price.</li>
+        <li>Confirm VAT/Total.</li>
+        <li>Enter payment split (Cash/Card/EFT).</li>
+        <li>Click <b>PRINTANDSAVE</b> to print and log the sale.</li>
+      </ol>
+
+      <h2 id="logs">4) Sales log and monthly sheets</h2>
+      <ul>
+        <li><b>SALES_LOG</b> stores all transactions.</li>
+        <li>Month sheets (JAN–DEC) show monthly views (auto-filled from SALES_LOG).</li>
+        <li><b>DASHBOARD</b> summarizes today/week/month totals.</li>
+      </ul>
+
+      <h2 id="printing">5) Printing tips (80mm)</h2>
+      <ul>
+        <li>Set printer to 80mm thermal if available.</li>
+        <li>Use "Fit to printable area" only if needed (prefer fixed scale).</li>
+        <li>If you see blank paper after the receipt, reduce print area to the receipt range.</li>
+      </ul>
+
+      <h2 id="customize">6) Customization (Your details)</h2>
+      <p>Replace placeholders on the receipt and site:</p>
+      <ul>
+        <li>Business name</li>
+        <li>Address</li>
+        <li>Phone/WhatsApp</li>
+        <li>VAT number (if applicable)</li>
+        <li>Logo (optional)</li>
+      </ul>
+
+      <h2 id="support">7) Support</h2>
+      <p>Seller support options (edit to match your offer):</p>
+      <ul>
+        <li>Basic email support for installation issues</li>
+        <li>Paid add-ons: custom branding, extra line items, barcode lookup, stock module</li>
+      </ul>
+
+      <div class="hr"></div>
+      <p class="sub">Want help customizing? Use the contact form on the home page.</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="hr"></div>
+      <div>© <span id="year"></span> [YOUR BRAND NAME]. All rights reserved.</div>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

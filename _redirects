@@ -1,0 +1,7 @@
+# Pretty URLs
+/docs   /docs.html   200
+/pricing /index.html 200
+/download /download.html 200
+
+# SPA fallback (if you later add routes)
+/* /index.html 200

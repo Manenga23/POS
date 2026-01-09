@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Download — Excel POS Template</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container nav">
+      <a class="brand" href="/">
+        <span class="dot"></span>
+        <span class="btext">Excel POS Template</span>
+      </a>
+      <div class="navlinks">
+        <a href="/docs">Docs</a>
+        <a href="/#pricing">Pricing</a>
+        <a class="btn" href="/#buy">Buy</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="container" style="padding:28px 0 12px">
+    <span class="pill">Delivery</span>
+    <h1>Download your file</h1>
+    <p class="sub">This page is designed for online selling. Choose one of the delivery options below.</p>
+  </header>
+
+  <main class="container">
+    <div class="grid2">
+      <section class="card">
+        <h2>Option A: Manual delivery (simplest)</h2>
+        <p class="muted">After payment, you email the buyer a download link (Google Drive/OneDrive) or the file as an attachment.</p>
+        <ol class="muted">
+          <li>Buyer completes payment.</li>
+          <li>You receive order notification (email/WhatsApp/PayFast notice).</li>
+          <li>Send the buyer the file + quick setup instructions.</li>
+        </ol>
+        <div class="note warn"><b>Tip:</b> Keep a standard email template ready with the “Enable Macros / Unblock” steps.</div>
+      </section>
+
+      <section class="card">
+        <h2>Option B: Automatic delivery (recommended for scale)</h2>
+        <p class="muted">Use a checkout platform that automatically delivers the file after payment.</p>
+        <ul class="muted">
+          <li><b>Payhip / Gumroad</b> (digital product delivery)</li>
+          <li><b>WooCommerce / Shopify</b> (if you want a full store)</li>
+          <li><b>PayFast</b> can be added later with a serverless function to unlock downloads</li>
+        </ul>
+        <div class="note"><b>When you’re ready:</b> I can wire up an automatic delivery flow on Netlify (email link + expiring token).</div>
+      </section>
+    </div>
+
+    <section class="card" style="margin-top:14px">
+      <h2>What the buyer receives</h2>
+      <ul class="muted">
+        <li>Excel POS workbook (.xlsm)</li>
+        <li>Quick-start PDF (how to enable macros + printer settings)</li>
+        <li>License + basic support terms</li>
+      </ul>
+    </section>
+
+    <div class="footer">
+      <div class="hr"></div>
+      <div class="muted">© <span id="year"></span> <span class="placeholder">[YOUR STORE NAME]</span>. All rights reserved.</div>
+    </div>
+  </main>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
